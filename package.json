@@ -1,0 +1,35 @@
+{
+  "name": "learn-react-testing",
+  "version": "1.0.0",
+  "description": "An introduction to integration testing React components.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel workshop/index.html",
+    "test": "jest workshop --watch --noStackTrace",
+    "test:solution": "jest solution --watch --noStackTrace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverjam/learn-react-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverjam/learn-react-testing/issues"
+  },
+  "homepage": "https://github.com/oliverjam/learn-react-testing#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/react": "^11.0.4",
+    "jest": "^26.4.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "whatwg-fetch": "^3.4.1"
+  }
+}
